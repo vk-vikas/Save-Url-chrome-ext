@@ -28,8 +28,8 @@ const renderLeads = () => {
     myLeads.map(e => {
         listItems += 
         `<li> 
-        <a target="_blank" href="&{e}"> ${e}</a>
-        </li?` 
+        <a target="_blank" href="${e}"> ${e}</a>
+        </li>` 
     })
     ulEl.innerHTML = listItems;
 }
